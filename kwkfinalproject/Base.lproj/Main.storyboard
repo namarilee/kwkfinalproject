@@ -68,13 +68,16 @@
                                 <rect key="frame" x="61" y="272" width="138" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 7"/>
+                                <connections>
+                                    <segue destination="NdF-cj-UCs" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="gDa-tS-BVR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Idw-Xz-TRb">
                                 <rect key="frame" x="239" y="270" width="138" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 8"/>
                                 <connections>
-                                    <segue destination="fGi-Y1-e1I" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="OJb-Dy-iWG"/>
+                                    <segue destination="t5O-A0-y0g" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ysh-bL-8ew"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="465-wc-Kyz">
@@ -82,7 +85,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 9"/>
                                 <connections>
-                                    <segue destination="fGi-Y1-e1I" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="w1S-CJ-sVZ"/>
+                                    <segue destination="x8t-Rq-qf9" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="vaZ-Tw-hAr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8DD-MA-3Gq">
@@ -90,7 +93,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 10"/>
                                 <connections>
-                                    <segue destination="fGi-Y1-e1I" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="pkf-Dh-jY6"/>
+                                    <segue destination="bnh-9X-0gR" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="0jV-0y-s1g"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mGq-ab-msR">
@@ -581,7 +584,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="ZmY-Ll-aZj"/>
-        <segue reference="w1S-CJ-sVZ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="5098167 1butterfly" width="375" height="747"/>

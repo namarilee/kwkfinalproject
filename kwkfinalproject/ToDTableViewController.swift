@@ -54,7 +54,6 @@ class ToDTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         let toDo = toDos[indexPath.row]
         
-    
         if let name = toDo.name {
             if toDo.monday{
                 cell.textLabel?.text = "❤️Monday : " + name

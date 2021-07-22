@@ -32,7 +32,7 @@ class AddToDoViewController: UIViewController {
 
     @IBAction func addTapped(_ sender: Any) {
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext{
-            let toDo =  ToDoCD(entity:ToDoCD.entity(), insertInto: context)
+            let toDo =  ToDoCD(entity: ToDoCD.entity(), insertInto: context)
         if let titleText = titleTextField.text{
             toDo.name = titleText
             toDo.monday = mondaySwitch.isOn

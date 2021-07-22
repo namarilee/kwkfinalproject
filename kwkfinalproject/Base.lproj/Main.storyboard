@@ -25,7 +25,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="creategoalbutton"/>
                                 <connections>
-                                    <segue destination="rOd-Ak-8P9" kind="presentation" modalPresentationStyle="fullScreen" id="r9n-TT-n9b"/>
+                                    <segue destination="rOd-Ak-8P9" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="r9n-TT-n9b"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Manifest Goals (3) 1" translatesAutoresizingMaskIntoConstraints="NO" id="GRq-gM-MRR">
@@ -331,6 +331,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="manifestations" id="AI6-W8-OSO">
+                        <barButtonItem key="leftBarButtonItem" title="Back to Home" id="R9k-HA-SZj">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="9hK-ke-AGf"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="ItH-2q-Fzb">
                             <connections>
                                 <segue destination="SDS-GB-ZE0" kind="show" id="Ijr-9S-4lW"/>

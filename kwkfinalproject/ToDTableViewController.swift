@@ -17,6 +17,9 @@ class ToDTableViewController: UITableViewController {
         getToDos()
 
     }
+    override func viewWillAppear(_ animated:Bool){
+        getToDos()
+    }
     
     func getToDos(){
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext{
@@ -53,53 +56,53 @@ class ToDTableViewController: UITableViewController {
         
     
         if let name = toDo.name {
-        if toDo.monday{
-            cell.textLabel?.text = "❤️Monday : " + name
-        }else{
-            cell.textLabel?.text = toDo.name
-        }
-        
-        if toDo.tuesday{
-            cell.textLabel?.text = "🧡Tuesday : " + name
-        }else{
-            cell.textLabel?.text = toDo.name
-        }
-        
-        if toDo.wednesday{
-            cell.textLabel?.text = "💛Wednesday : " + name
-        }else{
-            cell.textLabel?.text = toDo.name
-        }
-        
-        if toDo.thursday{
-            cell.textLabel?.text = "💚Thursday : " + name
-        }else{
-            cell.textLabel?.text = toDo.name
-        }
-        
-        if toDo.friday{
-            cell.textLabel?.text = "💙Friday : " + name
-        }else{
-            cell.textLabel?.text = toDo.name
-        }
-        
-        if toDo.saturday{
-            cell.textLabel?.text = "💜Saturday : " + name
-        }else{
-            cell.textLabel?.text = toDo.name
-        }
-        
-        if toDo.sunday{
-            cell.textLabel?.text = "🤍Sunday : " + name
-        }else{
-            cell.textLabel?.text = toDo.name
-        }
-        
-        if toDo.weeklyGoal{
-            cell.textLabel?.text = "🤎Weekly Goal : " + name
-        }else{
-            cell.textLabel?.text = toDo.name
-        }
+            if toDo.monday{
+                cell.textLabel?.text = "❤️Monday : " + name
+            }else{
+                cell.textLabel?.text = toDo.name
+            }
+            
+            if toDo.tuesday{
+                cell.textLabel?.text = "🧡Tuesday : " + name
+            }else{
+                cell.textLabel?.text = toDo.name
+            }
+            
+            if toDo.wednesday{
+                cell.textLabel?.text = "💛Wednesday : " + name
+            }else{
+                cell.textLabel?.text = toDo.name
+            }
+            
+            if toDo.thursday{
+                cell.textLabel?.text = "💚Thursday : " + name
+            }else{
+                cell.textLabel?.text = toDo.name
+            }
+            
+            if toDo.friday{
+                cell.textLabel?.text = "💙Friday : " + name
+            }else{
+                cell.textLabel?.text = toDo.name
+            }
+            
+            if toDo.saturday{
+                cell.textLabel?.text = "💜Saturday : " + name
+            }else{
+                cell.textLabel?.text = toDo.name
+            }
+            
+            if toDo.sunday{
+                cell.textLabel?.text = "🤍Sunday : " + name
+            }else{
+                cell.textLabel?.text = toDo.name
+            }
+            
+            if toDo.weeklyGoal{
+                cell.textLabel?.text = "🤎Weekly Goal : " + name
+            }else{
+                cell.textLabel?.text = toDo.name
+            }
         // Configure the cell...
     }
         return cell

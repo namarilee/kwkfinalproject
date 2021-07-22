@@ -57,6 +57,31 @@ class ToDTableViewController: UITableViewController {
         if let name = toDo.name {
             if toDo.monday{
                 cell.textLabel?.text = "❤️Monday : " + name
+            }
+            if toDo.tuesday{
+                cell.textLabel?.text = "🧡Tuesday : " + name
+            }
+            if toDo.wednesday{
+                cell.textLabel?.text = "💛Wednesday : " + name
+            }
+            if toDo.thursday{
+                cell.textLabel?.text = "💚Thursday : " + name
+            }
+            if toDo.friday{
+                cell.textLabel?.text = "💙Friday : " + name
+            }
+            if toDo.saturday{
+                cell.textLabel?.text = "💜Saturday : " + name
+            }
+            if toDo.sunday{
+                cell.textLabel?.text = "🤍Sunday : " + name
+            }
+            if toDo.weeklyGoal{
+                cell.textLabel?.text = "🤎Weekly Goal : " + name
+            }
+        /*
+            if toDo.monday{
+                cell.textLabel?.text = "❤️Monday : " + name
             }else{
                 cell.textLabel?.text = toDo.name
             }
@@ -102,6 +127,7 @@ class ToDTableViewController: UITableViewController {
             }else{
                 cell.textLabel?.text = toDo.name
             }
+        */
         // Configure the cell...
     }
         return cell

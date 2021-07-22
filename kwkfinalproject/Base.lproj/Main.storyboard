@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kH7-bL-WCT">
-                                <rect key="frame" x="60" y="175" width="302" height="65"/>
+                                <rect key="frame" x="65" y="372" width="302" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="creategoalbutton"/>
                                 <connections>
@@ -32,6 +32,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="417" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ca4-af-MXH">
+                                <rect key="frame" x="29" y="433" width="374" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Group 2"/>
+                                <connections>
+                                    <segue destination="1hC-J0-de5" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ZmY-Ll-aZj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.89802099907156629" green="0.86647390557760939" blue="0.98392885919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -60,9 +68,6 @@
                                 <rect key="frame" x="61" y="272" width="138" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Group 7"/>
-                                <connections>
-                                    <segue destination="fGi-Y1-e1I" kind="presentation" modalPresentationStyle="fullScreen" id="sk3-yB-t0x"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Idw-Xz-TRb">
                                 <rect key="frame" x="239" y="270" width="138" height="133"/>
@@ -411,6 +416,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="ZmY-Ll-aZj"/>
         <segue reference="w1S-CJ-sVZ"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -419,6 +425,7 @@
         <image name="93a34368c86792bdd94af82982623a71 1" width="1125" height="2136"/>
         <image name="Group 10" width="242" height="234"/>
         <image name="Group 12" width="468" height="234"/>
+        <image name="Group 2" width="290" height="69"/>
         <image name="Group 4completebutton" width="410" height="103"/>
         <image name="Group 4weeklygoal" width="290" height="69"/>
         <image name="Group 7" width="242" height="234"/>
